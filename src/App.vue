@@ -12,10 +12,9 @@
       <header id="header">
         <nav>
           <ul>
-            <li><a href="#">top</a></li>
-            <li><a href="#">works</a></li>
-            <li><a href="#">skills</a></li>
-            <li><a href="#">contact</a></li>
+            <li><router-link to="/#works">works</router-link></li>
+            <li><router-link to="/#skills">skills</router-link></li>
+            <li><router-link to="/#contact">contact</router-link></li>
           </ul>
         </nav>
       </header>
