@@ -1,8 +1,9 @@
 <template>
   <section id="contact">
     <h2>contact me</h2>
-    <p>If you want to ask something or just say hello, please fill out the contact form below. I will get back to you as soon as possible.</p>
-    <form action="" class="contact-form">
+    <p>If you want to ask something or just say hello, please email me. I will get back to you as soon as possible.</p>
+    <a href="mailto:suigetsukaori@gmail.com" class="email">suigetsukaori@gmail.com</a>
+    <form action="" class="contact-form" v-if="false">
       <div class="form-group">
         <label for="">name<span>*</span></label>
         <input type="text" name="name">
@@ -54,6 +55,11 @@ export default {
       width: 250px;
     }
   }
+}
+.email {
+  font-family: $font-family-h;
+  font-weight: $font-bold;
+  font-size: 1.6em;
 }
 
 </style>
