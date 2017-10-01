@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/suige/portfolio/tree/master.svg?style=svg)](https://circleci.com/gh/suige/portfolio/tree/master)
+
 # portfolio
 
 > This is my portfolio using Vue.js
