@@ -1,4 +1,5 @@
-[![CircleCI](https://circleci.com/gh/suige/portfolio/tree/master.svg?style=svg)](https://circleci.com/gh/suige/portfolio/tree/master)
+[![CircleCI](https://circleci.com/gh/suige/portfolio/tree/master.svg?style=shield&circle-token=c0a94a02e59ea13d969bb97288b6a9501a97b384)](https://circleci.com/gh/suige/portfolio/tree/master)
+
 
 # portfolio
 
