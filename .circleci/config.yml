@@ -6,6 +6,6 @@ jobs:
      steps:
        - checkout
        - run:
-        name: Build Vue file
-        command: npm run build
-        working_directory: ./articles
+          name: Build Vue file
+          command: npm run build
+          working_directory: ./articles
