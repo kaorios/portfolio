@@ -3,16 +3,17 @@ jobs:
    build:
      docker:
        - image: circleci/node:latest
+     working_directory: /tmp
      steps:
        - checkout
        - run: 
           name: npm install
           command: npm install
-          working_directory: ./articles
+          working_directory: /tmp/articles
        - run:
           name: Build Vue file
           command: npm run build
-          working_directory: ./articles
+          working_directory: /tmp/articles
        - store_artifacts:
-          path: ./articles
+          path: /tmp/articles
           destination: dist
