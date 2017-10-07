@@ -13,3 +13,6 @@ jobs:
           name: Build Vue file
           command: npm run build
           working_directory: ./articles
+      - store_artifacts:
+          path: ./articles/dist
+          destination: /dist
