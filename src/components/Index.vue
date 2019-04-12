@@ -2,8 +2,8 @@
   <div class="index">
     <section id="hero">
       <h1>Hello, I am Kaori Suigetsu, a front-end developer and also a web designer.</h1>
-      <p>I work as a web developer and designer for 3 years. I am currntry studing SVG, Canvas and CSS animation to produce amazing intaractional web site for my clients. I moved to Vancouver, Canada because I would like to learn web animation more.</p>
-      <p>If you get interested me, please <a href="#contact">contact me</a>.</P>
+      <p>I've been working as a web developer and designer for 3 years. I am currently studying SVG, Canvas and CSS animation to produce an amazing intaractional web site for my clients. I moved to Vancouver, Canada because I would like to learn web animation more.</p>
+      <p>If you get interested in me, please <a href="#contact">contact me</a>.</P>
     </section>
 
     <works></works>
